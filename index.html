@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google STT</title>
+    <script src="./node_modules/recordrtc/RecordRTC.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 style="text-align: center">Speech To Text</h1>
+<div class="d-flex flex-column align-center" style="margin-bottom: 25px">
+    <textarea id="textViewer" cols="30" rows="10" style="width: 500px"></textarea>
+    <span style="margin-top: 10px" class="listening">Listening...</span>
+</div>
+<div class="d-flex justify-center">
+    <button class="startRec">Start</button>
+    <button class="stopRec">Stop</button>
+</div>
+<script src="./external.js"></script>
+</body>
+</html>
