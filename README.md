@@ -2,6 +2,7 @@
 
 Google's speech to text (STT) API used along with RecordRTC.js library. It will take audio from the microphone and passes the audio data (blob) to the Google API. 
 
+![](stt.gif)
 
 ## Compatablity Instructions:
 
