@@ -1,0 +1,30 @@
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center
+}
+
+.align-center {
+    align-items: center
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.startRec {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.stopRec {
+    width: 100px;
+}
+
+.startRec:disabled,
+.stopRec:disabled {
+    background: #b2b0b0;
+}
