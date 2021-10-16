@@ -4,7 +4,7 @@ Google's speech to text (STT) API used along with RecordRTC.js library. It will 
 
 ![](stt.gif)
 
-## Compatablity Instructions:
+## Compatibility Instructions:
 
 It will work on all the latest browsers.
 
